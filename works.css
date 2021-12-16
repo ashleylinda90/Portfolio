@@ -1,0 +1,114 @@
+html,
+body {
+  /* background-color: rgba(177, 255, 237, 0.434); */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation {
+  display: flex;
+  position: sticky;
+  font-family: "Noto Sans Display", sans-serif;
+  justify-content: flex-end;
+  background-color: rgb(223, 173, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 50px;
+}
+
+#home {
+  margin-right: auto;
+  font-size: 1.2rem;
+}
+
+.links {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+#work {
+  padding-right: 50px;
+}
+
+#works {
+  font-family: "Noto Sans Display", sans-serif;
+  font-size: 2rem;
+  padding-left: 30px;
+  padding-top: 100px;
+}
+
+.projects {
+  display: flex;
+}
+
+#dinerScreenshot {
+  /* width: 100px; */
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+.projects #description {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 60px;
+  padding-left: 50px;
+}
+
+#hr1 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.app {
+  display: flex;
+}
+
+#appScreenshot {
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+#hr2 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+#pythonScreenshot {
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+#hr3 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+#robotics {
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+#hr4 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  width: 320px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer div {
+  padding-left: 20px;
+  padding-top: 10px;
+}

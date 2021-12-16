@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashley Fillmore's Online Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navigation">
+        <div id="ashley">
+          <nav>Ashley's Portfolio</nav>
+        </div>
+        <div class="links">
+          <a href="works.html"><nav id="work">Works</nav></a>
+          <a href="contact.html"><nav id="contact">Contact</nav></a>
+        </div>
+      </div>
+    </header>
+    <!-- LIGHT BOX/MODAL -->
+    <!-- Images used to open the lightbox -->
+    <div class="row">
+      <div class="column">
+        <img
+          src="./Images/img1.jpeg"
+          height="200"
+          onclick="openModal();currentSlide(1)"
+          class="hover-shadow"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./Images/img2.jpeg"
+          height="200"
+          onclick="openModal();currentSlide(2)"
+          class="hover-shadow"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./Images/img3.jpeg"
+          height="200"
+          onclick="openModal();currentSlide(3)"
+          class="hover-shadow"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./Images/img4.jpeg"
+          height="200"
+          onclick="openModal();currentSlide(4)"
+          class="hover-shadow"
+        />
+      </div>
+    </div>
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="./Images/img1.jpeg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="./Images/img2.jpeg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="./Images/img3.jpeg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="./Images/img4.jpeg" style="width: 100%" />
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="column">
+          <img
+            class="demo"
+            src="./Images/img1.jpeg"
+            onclick="currentSlide(1)"
+            alt="Nature"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo"
+            src="./Images/img2.jpeg"
+            onclick="currentSlide(2)"
+            alt="Snow"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo"
+            src="./Images/img3.jpeg"
+            onclick="currentSlide(3)"
+            alt="Mountains"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo"
+            src="./Images/img4.jpeg"
+            onclick="currentSlide(4)"
+            alt="Lights"
+          />
+        </div>
+      </div>
+    </div>
+    <main>
+      <div>
+        <h1>
+          Hi, I'm Ashley <br />Software Developer <br />
+          living in Cupids, Newfoundland
+        </h1>
+        <img
+          id="profilepic"
+          src="./Images/ashleyprofilepic.jpeg"
+          alt="profilepic"
+        />
+      </div>
+      <div>
+        <p>
+          I am a 31 year old student at Keyin College, studying Software
+          Development. I have a background in customer service and spent six
+          years as a veterinary assistant with a diploma from Academy Canada. I
+          am very sociable, easy going and am open to learning anything if given
+          the opportunity. I am a fast learner, especially when I enjoy what I'm
+          learning! I am eager to start a career in software development - the
+          rapid growth of the tech sector (in Newfoundland particularly) is very
+          exciting and to be able to be an integral part of that development is
+          fantastic!
+        </p>
+      </div>
+      <div>
+        <a href="contact.html"><button>Contact Me</button></a>
+      </div>
+      <div id="featured">Featured Works</div>
+      <div class="projects">
+        <div id="dinerScreenshot">
+          <img src="./Images/diner.png" width="200" alt="diner" />
+        </div>
+        <div id="description">
+          Designing a Website
+          <br />
+          <br />
+          2021 - Website
+          <br />
+          <br />
+          While in the second semester of school, we started learning about
+          JavaScript, HTML and CSS. Our first major project, known as a sprint,
+          was to design a functioning website that linked at least 3 pages.
+
+          <!-- <a href="">Learn more about this project.</a> -->
+        </div>
+      </div>
+      <hr id="hr1" />
+      <div class="projects">
+        <div id="appScreenshot">
+          <img src="./Images/appscreenshot.png" width="200" alt="app" />
+        </div>
+        <div id="description">
+          Creating an App
+          <br />
+          <br />
+          2021 - App
+          <br />
+          <br />
+          Our second major project in the second semester was to create a
+          functioning social media app using React. We were provided with a
+          default project and I took my inspiration from Instagram.
+        </div>
+      </div>
+      <hr id="hr2" />
+      <div class="projects">
+        <div id="pythonScreenshot">
+          <img src="./Images/pythonClaims.png" width="200" alt="python" />
+        </div>
+        <div id="description">
+          Processing System Using Python
+          <br />
+          <br />
+          2021 - Python
+          <br />
+          <br />
+          Learning the language of Python was the main focus in our first
+          semester. One of our sprint projects was to create a travel claims
+          processing system with multiple options for the user to choose from,
+          such as entering a claim or graphing monthly claim totals. This was a
+          team effort, so the credit extends to my fellow classmates Michael
+          O'Reilly, Gerald Bartlett and John Byrne.
+        </div>
+      </div>
+      <hr id="hr3" />
+      <div class="projects">
+        <div id="robotics">
+          <img src="./Images/robotics.png" width="200" alt="robotics" />
+        </div>
+        <div id="description">
+          Robotics PowerPoint Presentation
+          <br />
+          <br />
+          2021 - PowerPoint
+          <br />
+          <br />
+          One of our assignments was to pick a topic we were passionate about
+          and research it, followed by a PPT presentation to the rest of our
+          class and instructor. My partner Michael O'Reilly and I chose
+          robotics. He researched Boston Dynamics and Ouster, and I researched
+          Kraken Robotics and Vicarious Surgical.
+        </div>
+      </div>
+      <hr id="hr4" />
+    </main>
+    <footer>
+      <a href="https://www.linkedin.com/in/ashley-bartlett-672a7b211/"
+        ><i class="fa fa-linkedin-square" style="font-size: 36px"></i
+      ></a>
+      <div>Copyright &copy; 2021 All rights reserved</div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
