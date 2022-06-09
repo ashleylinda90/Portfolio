@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    position: sticky;
+    font-family: "Noto Sans Display", sans-serif;
+    justify-content: flex-end;
+    background-color: rgb(223, 173, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 50px;
+  }
+
+  #ashley {
+    margin-right: auto;
+    font-size: 1.2rem;
+  }
+  
+  .links {
+    display: flex;
+    font-size: 1.2rem;
+  }
