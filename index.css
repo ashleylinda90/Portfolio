@@ -209,7 +209,7 @@ main div button {
   font-size: 1.5rem;
   font-weight: bold;
   padding-left: 80px;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .projects {
@@ -266,7 +266,7 @@ main div button {
 
 footer {
   display: flex;
-  width: 320px;
+  width: 400px;
   padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -275,4 +275,8 @@ footer {
 footer div {
   padding-left: 20px;
   padding-top: 10px;
+}
+
+footer a {
+  padding-left:10px;
 }
