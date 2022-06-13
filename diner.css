@@ -1,3 +1,10 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navigation {
     display: flex;
     position: sticky;
@@ -8,14 +15,50 @@
     padding-bottom: 10px;
     padding-left: 80px;
     padding-right: 50px;
-  }
+}
 
-  #ashley {
+#ashley {
     margin-right: auto;
     font-size: 1.2rem;
-  }
+}
   
-  .links {
+.links {
     display: flex;
     font-size: 1.2rem;
-  }
+}
+
+#work {
+    padding-right: 50px;
+}
+
+#div1 {
+    display: flex;
+    justify-content: center;
+}
+
+#homepage {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#breakfastmenu {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#div2 {
+    display: flex;
+    justify-content: center;
+}
+
+#dinnermenu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#orderpage {
+    padding-top: 20px;
+    padding-left: 20px;
+}
