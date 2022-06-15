@@ -207,10 +207,15 @@ main div button {
 
 #featured {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   padding-left: 80px;
   padding-top: 100px;
+}
+
+#ss {
+  font-size: 1.1rem;
+  padding-left: 10px;padding-top: 7px;
 }
 
 /* .projects {
