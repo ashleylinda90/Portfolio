@@ -17,20 +17,21 @@ main {
   font-family: "Noto Sans Display", sans-serif;
   justify-content: flex-end;
   background-color: rgb(223, 173, 255);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 80px;
   padding-right: 50px;
 }
 
 #home {
   margin-right: auto;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .links {
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
 #work {
@@ -53,6 +54,11 @@ main {
   padding-top: 60px;
 }
 
+#dinerhomepage {
+  color: blue;
+  text-decoration: underline;
+}
+
 .projects #description {
   font-family: "Montserrat", sans-serif;
   padding-top: 60px;
@@ -68,9 +74,24 @@ main {
   display: flex;
 }
 
+#databaseScreenshot {
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+#databasehomepage {
+  color: blue;
+  text-decoration: underline;
+}
+
 #appScreenshot {
   padding-left: 30px;
   padding-top: 60px;
+}
+
+#inspohomepage {
+  color: blue;
+  text-decoration: underline;
 }
 
 #hr2 {
